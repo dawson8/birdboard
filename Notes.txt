@@ -1,20 +1,28 @@
-Setup git - only needs to be done once per pc
-
+// Setup git - only needs to be done once per pc
 git config --global user.name = 'Chris Dawson';
 git config --global user.email = 'csdawson8@gmail.com';
 
 
-initialise repository - only once per project
+// Initialise repository - only once per project
 git init
 
-get project status
+// Get project status
 git status
 
-add files to staging area - run everytime you want to commit
+// Add files to staging area - run everytime you want to commit
 git add filename (use . for full project)
 
-commit files
+// Commit files
 git commit -m 'First Commit'
 
-view commit log
+// View commit log
 git log
+
+// Reset commit and revert all changes to be the same as they where in this commit
+git reset --hard adc3001277bbefee57d19984d6c6cac67486f33b
+
+// Reset commit but keep any changes
+git reset --soft adc3001277bbefee57d19984d6c6cac67486f33b 
+
+// Amend last commit
+git commit --amend
