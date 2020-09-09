@@ -63,3 +63,5 @@ create repo on github.com manually first to get the below uri
 git remote add origin https://github.com/dawson8/birdboard.git
 git branch -M master
 git push -u origin master
+// after first push
+git push
