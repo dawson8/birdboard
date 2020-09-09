@@ -1,0 +1,5 @@
+Setup git - only needs to be done once per pc
+
+git config --global user.name = 'Chris Dawson';
+git config --global user.email = 'csdawson8@gmail.com';
+
