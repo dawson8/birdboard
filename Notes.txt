@@ -3,3 +3,18 @@ Setup git - only needs to be done once per pc
 git config --global user.name = 'Chris Dawson';
 git config --global user.email = 'csdawson8@gmail.com';
 
+
+initialise repository - only once per project
+git init
+
+get project status
+git status
+
+add files to staging area - run everytime you want to commit
+git add filename (use . for full project)
+
+commit files
+git commit -m 'First Commit'
+
+view commit log
+git log
