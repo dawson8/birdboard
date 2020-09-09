@@ -38,3 +38,22 @@ git checkout <branch>
 
 // merge branch
 git merge <branch>
+
+// delete a branch
+git branch -d <branch>
+
+// list all branches
+git branch
+
+// store changes for later without committing them
+git stash
+
+// view all stash changes
+git stash list
+
+// Apply or pop the stash, apply leaves the stash i the list, pop removes init identifier is optional, without it all stashs will be applied or popped
+git stash apply <identifier>
+git stash pop <identifier>
+
+// delete a stash
+git stash drop <identifier>
