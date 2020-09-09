@@ -32,3 +32,9 @@ git checkout -- <file>
 
 // create a branch
 git checkout -b <branch>
+
+// checkout branch
+git checkout <branch>
+
+// merge branch
+git merge <branch>
