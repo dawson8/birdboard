@@ -26,3 +26,9 @@ git reset --soft adc3001277bbefee57d19984d6c6cac67486f33b
 
 // Amend last commit
 git commit --amend
+
+// Discard changes in woking directory
+git checkout -- <file>
+
+// create a branch
+git checkout -b <branch>
